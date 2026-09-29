@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-09301-005"
+version = "0.1.0"
+description = "地方产业人才适配的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []

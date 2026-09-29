@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "地方产业人才适配",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "产业园区",
+    "高校专业负责人",
+    "企业用工经理"
+  ],
+  "states": [
+    "采集",
+    "映射",
+    "核验",
+    "发布",
+    "复算"
+  ],
+  "invariants": [
+    "能力映射",
+    "授权裁剪",
+    "来源谱系",
+    "批次续跑"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-005-A",
+      "actor": "产业园区",
+      "state": "采集"
+    },
+    {
+      "case_id": "09301-005-B",
+      "actor": "企业用工经理",
+      "state": "映射"
+    }
+  ],
+  "tags": [
+    "talent-matching",
+    "industry-demand"
+  ]
+}
