@@ -1,6 +1,12 @@
 [project]
 name = "domain-contract-09301-005"
 version = "0.1.0"
-description = "地方产业人才适配的领域约定与校验工具"
+description = "地方产业人才适配的领域约定、校验工具与服务端"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+talent-adapt = "talent_adapt.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
